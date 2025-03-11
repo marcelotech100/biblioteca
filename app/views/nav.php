@@ -11,6 +11,7 @@
             <li class="nav-item"><a class="nav-link" href="#">Meu Perfil</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
             <li class="nav-item"><a class="nav-link" href="?ct=admin&mt=index">Admin</a></li>
+            <li class="nav-item"><a class="nav-link" href="?ct=employee&mt=index">Funcionários</a></li>
         </ul>
     </div>
 </nav>

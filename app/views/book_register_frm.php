@@ -1,3 +1,11 @@
+<?php
+if (isset($_SESSION['user']) && $_SESSION['user'] == 'admin') {
+    $url_back = "?ct=admin&mt=index";
+} else if (isset($_SESSION['user']) && $_SESSION['user'] == 'employee') {
+    $url_back = "?ct=employee&mt=index";
+}
+?>
+
 <div class="container mt-5">
     <div class="bg-dark text-white p-3 mb-4 rounded shadow-sm text-center">
         <h4 style="font-weight: 300;"><i class="fas fa-user"></i> Cadastro de Livros</h4>
@@ -35,6 +43,6 @@
             </select>
         </div>
         <button type="submit" class="btn btn-primary">Cadastrar</button>
-        <a href="?ct=admin&mt=index" class="btn btn-secondary">Voltar</a>
+        <a href="<?= $url_back ?>" class="btn btn-secondary">Voltar</a>
     </form>
 </div>
