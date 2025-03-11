@@ -13,4 +13,12 @@ class Main extends BaseController
         $this->view('home');
         $this->view('layouts/html_footer');
     }
+
+    public function login_home()
+    {
+        $this->view('layouts/html_header');
+        $this->view('nav');
+        $this->view('login_home_page');
+        $this->view('layouts/html_footer');
+    }
 }

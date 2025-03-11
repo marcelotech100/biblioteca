@@ -9,7 +9,7 @@
             <li class="nav-item"><a class="nav-link" href="#">Buscar Livros</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Meus Empréstimos</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Meu Perfil</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="?ct=main&mt=login_home">Login</a></li>
             <li class="nav-item"><a class="nav-link" href="?ct=admin&mt=index">Admin</a></li>
             <li class="nav-item"><a class="nav-link" href="?ct=employee&mt=index">Funcionários</a></li>
         </ul>
