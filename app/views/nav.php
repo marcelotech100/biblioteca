@@ -10,6 +10,7 @@
             <li class="nav-item"><a class="nav-link" href="#">Meus Empréstimos</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Meu Perfil</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="?ct=admin&mt=index">Admin</a></li>
         </ul>
     </div>
 </nav>
