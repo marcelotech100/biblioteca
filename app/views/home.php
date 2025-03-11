@@ -1,5 +1,5 @@
-<div class="hero">
-    <div class="hero-text">
+<div class="banner">
+    <div class="banner-text">
         <h1>Bem-vindo à Biblioteca Online</h1>
         <p>Busque e desfrute de uma vasta coleção de livros</p>
         <a href="#" class="btn btn-primary btn-lg">Buscar Livros</a>
